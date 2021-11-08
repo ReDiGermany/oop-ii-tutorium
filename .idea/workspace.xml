@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5883ec34-6305-486a-9a1e-4ff58c824ba2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Beispiele/Images/markus-spiske-iar-afB0QQw-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Basis/BaseWindowExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Bindings/SizeBinding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Bindings/TextBinding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Events/EventsDragExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Events/EventsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Events/MouseClickExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Images/LocalImageExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Images/RemoteImageExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Lamda/LamdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/AnchorPaneExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/BorderPaneBoxExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/BorderPaneExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/GridPaneExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/HBoxExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/PaneExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/StackPaneExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/VBoxExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Observer/ChangeListenerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Observer/InvalidationListenerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Window/WindowExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung2/Aufgabe21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung2/Aufgabe22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung2/Aufgabe23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Uebung2/Aufgabe24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+    <list default="true" id="5883ec34-6305-486a-9a1e-4ff58c824ba2" name="Changes" comment="Added Tutorium Kot">
+      <change afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/FlowPaneExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tutorium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorium.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +46,7 @@
       <recent name="D:\Uni\Hof\OneDrive - Hochschule fur angewandte Wissenschaften Fachhochschule Hof\Semester 3\OOP II Tutorium\Tutorium\res" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LamdaExample">
+  <component name="RunManager" selected="Application.FlowPaneExample">
     <configuration name="ChangeListenerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Beispiele.Observer.ChangeListenerExample" />
       <module name="Tutorium" />
@@ -87,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvalidationListenerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Beispiele.Observer.InvalidationListenerExample" />
+    <configuration name="FlowPaneExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Beispiele.Layouts.FlowPaneExample" />
       <module name="Tutorium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Beispiele.Observer.*" />
+          <option name="PATTERN" value="Beispiele.Layouts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlowPaneExample" />
         <item itemvalue="Application.LamdaExample" />
         <item itemvalue="Application.RemoteImageExample" />
         <item itemvalue="Application.LocalImageExample" />
         <item itemvalue="Application.ChangeListenerExample" />
-        <item itemvalue="Application.InvalidationListenerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +131,14 @@
       <option name="presentableId" value="Default" />
       <updated>1635420604486</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Tutorium Kot">
+      <created>1636030025258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636030025258</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,5 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added Tutorium Kot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Tutorium Kot" />
   </component>
 </project>
