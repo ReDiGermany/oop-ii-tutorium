@@ -2,7 +2,6 @@ package Beispiele.Layouts;
 
 import javafx.application.Application;
 import javafx.geometry.Orientation;
-import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.FlowPane;
