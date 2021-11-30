@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5883ec34-6305-486a-9a1e-4ff58c824ba2" name="Changes" comment="Added Tutorium Kot">
-      <change afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/FlowPaneExample.java" afterDir="false" />
+    <list default="true" id="5883ec34-6305-486a-9a1e-4ff58c824ba2" name="Changes" comment="Added binding example">
+      <change afterPath="$PROJECT_DIR$/src/Beispiele/Components/AccordionComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Beispiele/Components/BoxComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Beispiele/Components/ButtonComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Beispiele/Components/TableComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Beispiele/Bindings/SizeBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beispiele/Bindings/SizeBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Beispiele/Bindings/TextBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beispiele/Bindings/TextBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Beispiele/Bindings/WindowTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beispiele/Bindings/WindowTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Beispiele/Layouts/BorderPaneBoxExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/BorderPaneBoxExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Beispiele/Layouts/GridPaneExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beispiele/Layouts/GridPaneExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Beispiele/Window/WindowExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Beispiele/Window/WindowExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +44,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Parallele Programmierung/Parallele Programmierung" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.13908207" />
     <property name="project.structure.side.proportion" value="0.5522648" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -46,13 +56,13 @@
       <recent name="D:\Uni\Hof\OneDrive - Hochschule fur angewandte Wissenschaften Fachhochschule Hof\Semester 3\OOP II Tutorium\Tutorium\res" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlowPaneExample">
-    <configuration name="ChangeListenerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Beispiele.Observer.ChangeListenerExample" />
+  <component name="RunManager" selected="Application.BoxComponent">
+    <configuration name="AccordionComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Beispiele.Components.AccordionComponent" />
       <module name="Tutorium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Beispiele.Observer.*" />
+          <option name="PATTERN" value="Beispiele.Components.ButtonComponent" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlowPaneExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Beispiele.Layouts.FlowPaneExample" />
+    <configuration name="BoxComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Beispiele.Components.BoxComponent" />
       <module name="Tutorium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Beispiele.Layouts.*" />
+          <option name="PATTERN" value="Beispiele.Components.ButtonComponent" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LamdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Beispiele.Lamda.LamdaExample" />
+    <configuration name="ButtonComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Beispiele.Components.ButtonComponent" />
       <module name="Tutorium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Beispiele.Lamda.*" />
+          <option name="PATTERN" value="Beispiele.Components.ButtonComponent" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalImageExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Beispiele.Images.LocalImageExample" />
+    <configuration name="TableComponent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Beispiele.Components.TableComponent" />
       <module name="Tutorium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Beispiele.Images.*" />
+          <option name="PATTERN" value="Beispiele.Components.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoteImageExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Beispiele.Images.RemoteImageExample" />
+    <configuration name="TextBinding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Beispiele.Bindings.TextBinding" />
       <module name="Tutorium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Beispiele.Images.*" />
+          <option name="PATTERN" value="Beispiele.Bindings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FlowPaneExample" />
-        <item itemvalue="Application.LamdaExample" />
-        <item itemvalue="Application.RemoteImageExample" />
-        <item itemvalue="Application.LocalImageExample" />
-        <item itemvalue="Application.ChangeListenerExample" />
+        <item itemvalue="Application.BoxComponent" />
+        <item itemvalue="Application.TableComponent" />
+        <item itemvalue="Application.AccordionComponent" />
+        <item itemvalue="Application.ButtonComponent" />
+        <item itemvalue="Application.TextBinding" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636030025258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed unused import">
+      <created>1637077267883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637077267883</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added binding example">
+      <created>1637077331417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637077331417</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +180,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added Tutorium Kot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Tutorium Kot" />
+    <MESSAGE value="Removed unused import" />
+    <MESSAGE value="Added binding example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added binding example" />
   </component>
 </project>

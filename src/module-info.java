@@ -9,6 +9,7 @@ module Tutorium { // Name des Projekts
     exports Beispiele.Observer; // Package das Fenster beinhaltet
     exports Beispiele.Images; // Package das Fenster beinhaltet
     exports Beispiele.Lamda; // Package das Fenster beinhaltet
+    exports Beispiele.Components; // Package das Fenster beinhaltet
     requires javafx.base; // Module, die wir benötigen
     requires javafx.graphics; // Module, die wir benötigen
     requires javafx.fxml; // Module, die wir benötigen
