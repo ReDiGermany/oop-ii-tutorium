@@ -15,13 +15,15 @@ public class GridPaneExample extends Application {
         Label label2 = new Label("Label 2");
         Label label3 = new Label("Label 3");
 
+
+
         GridPane.setConstraints(label1,1,2);
 
 //        GridPane.setColumnIndex(label1,1);
 //        GridPane.setRowIndex(label1,2);
 
-        GridPane.setColumnIndex(label3,2);
-        GridPane.setRowIndex(label3,2);
+        GridPane.setColumnIndex(label3,10);
+        GridPane.setRowIndex(label3,15);
 
         root.getChildren().addAll(label1,label2,label3);
 

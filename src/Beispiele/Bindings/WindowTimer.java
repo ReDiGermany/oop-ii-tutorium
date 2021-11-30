@@ -42,9 +42,9 @@ public class WindowTimer extends Application {
     class Timer extends Thread {
         @Override
         public void run() {
-            Platform.runLater(()->{
+//            Platform.runLater(()->{
                 label.setText(text.getText());
-            });
+//            });
             try {
                 sleep(1000);
             } catch (InterruptedException e) {

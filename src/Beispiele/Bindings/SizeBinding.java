@@ -12,6 +12,7 @@ public class SizeBinding extends Application {
         TextField leftField = new TextField();
         TextField rightField = new TextField();
 
+
         leftField.textProperty().bind(stage.widthProperty().asString());
         rightField.textProperty().bind(stage.heightProperty().asString());
         HBox root = new HBox(leftField,rightField);

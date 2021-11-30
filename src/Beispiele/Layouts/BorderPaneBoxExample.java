@@ -46,14 +46,6 @@ public class BorderPaneBoxExample extends Application {
                 setHeight(number.doubleValue());
             }
         });
-
-//        stage.heightProperty().addListener((ObservableValue<? extends Number> observableValue, Number number, Number t1)->{
-//            setHeight(number.doubleValue());
-//        });
-//        stage.widthProperty().addListener((ObservableValue<? extends Number> observableValue, Number number, Number t1) -> {
-//            setWidth(number.doubleValue());
-//        });
-
         setWidth(stage.getWidth());
         setHeight(stage.getHeight());
     }
